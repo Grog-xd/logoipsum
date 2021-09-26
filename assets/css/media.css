@@ -1,0 +1,110 @@
+@media screen and (max-width: 1920px) {
+    .container{
+        max-width: 1320px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 930px;
+    }
+    .main img, .main_arrow{
+        display: none;
+    }
+    .main{
+        justify-content: center;
+        text-align: center;
+    }
+    .main_btn{
+        justify-content: center;
+    }
+    .radio{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .money_block{
+        width: 270px;
+    }
+    .money_block button{
+        width: 200px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 972px) {
+    .container {
+        max-width: 730px;
+    }
+    .advantages{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .advantages_block{
+        margin-top: 50px;
+    }
+    header button{
+        display: none;
+    }
+    .money_block{
+        width: 230px;
+    }
+    
+}
+
+@media screen and (max-width: 756px) {
+    .container {
+        max-width: 540px;
+    }
+    .logo-slider{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .advantages{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .advantages_block{
+        margin-top: 80px;
+    }
+    .money{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+   h6{
+       font-size: 16px;
+   }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 340px;
+    }
+    header{
+        flex-direction: column;
+    }
+    nav{
+        margin-top: 30px;
+    }
+    .radio h2{
+        font-size: 30px;
+        width: 300px;
+    }
+    .logo-slider img{
+        margin-top: 20px;
+    }
+    .logo-slider{
+        margin-top: 150px;
+    }
+    .main_text-block h1{
+        font-size: 50px;
+    }
+
+}

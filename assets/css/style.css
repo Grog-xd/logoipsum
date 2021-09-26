@@ -1,0 +1,238 @@
+body{
+    box-sizing: border-box;
+    background-color: white;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 80px;
+}
+h2{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 60px; 
+}
+h3{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+}
+h4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+}
+h6{
+    font-size: 20px;
+    color: #696871;
+    font-family: 'Mulish', sans-serif;
+}
+p{
+    font-size: 16px;
+    color: #696871;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 10px; 
+    transition: all .5s ease;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1320px; 
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 327px;
+    align-items: center;
+}
+header nav li a{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    color: #696871;
+    list-style: none;
+    transition: all .5s ease ;
+}
+header nav li a:hover{
+    color: #19191B;
+}
+header button{
+    width: 211px;
+    height: 60px;
+    background-color:#FF7143 ;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.main_text-block{
+    margin-top: 90px;
+    width: 459px;
+    height: 461px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.main_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    border: none;
+}
+.main_btn button{
+    width: 211px;
+    height: 60px;
+    background-color:#5454D4 ;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.main_arrow{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px solid #E7E7E7;
+    margin: 0 auto;
+    display: flex;
+}
+.main_arrow img{
+    width: 30px;
+    margin: 0 auto;
+}
+.logo-slider{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+.block-2_text-block{
+    margin-top: 90px;
+    width: 459px;
+    height: 229px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.learn{
+    color:#5454D4 ;
+    text-decoration: none;
+    outline: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+}
+.block-3_text-block{
+    margin-top: 90px;
+    width: 556px;
+    height: 199px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.advantages{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+.advantages_block{
+    width: 307px;
+    height: 208px;
+    text-align: center;
+}
+.radio{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.radio h2{
+    width: 600px;
+}
+.radio_btn{
+    width: 346px;
+    height: 65px;
+    background-color: #F7F7FB ;
+    align-items: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.radio_btn button{
+    width: 160px;
+    height: 55px;
+    border: none;
+    background-color: transparent;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+    transition: all .5s ease;
+    border-radius: 10px;
+}
+.radio_btn button:hover{
+    background-color:#5454D4 ;
+    color: white;
+}
+.money{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.money_block{
+    width:330px ;
+    height: 441px;
+    border-radius: 10px;
+    background-color:#F8F8F8 ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+    transition: all .5s ease;
+}
+.money_block span{
+    font-size: 28px;
+}
+.money_block button{
+    width: 285px;
+    height: 60px;
+    background-color: white;
+    color: #5454D4;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    transition: all .5s ease;
+}
+.money_block:hover{
+    background-color: #FF7143;
+    color: white;
+}
+.money_block:hover button{
+    background-color: #9F3919;
+    color: white;
+}
+.money_block:hover p{
+    color: white;
+}
